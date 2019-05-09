@@ -5,12 +5,13 @@ p { font-family: 'arial'; }
 
 /*La couleur dominante*/
 .circle, .navbar, .frame { border-color: #00898E; }
-h1, h2, h3, h4, h5, h6, i, .item { color: #00898E; }
+h1, h2, h4, h5, h6, i, .item { color: #00898E; }
+h3, .item { color: #000}
 
 /*Le fond de couleur*/
 /*Récupérer ces propriétés sur Ui Gradients: https://uigradients.com*/
 .bg-color {
   background: #74ebd5;
-  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
-  background: linear-gradient(to right, #ACB6E5, #74ebd5);
+  background: -webkit-linear-gradient(to right, #4C96D7, #083B66);
+  background: linear-gradient(to right, #4C96D7, #083B66);
 }
